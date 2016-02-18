@@ -1,0 +1,142 @@
+#top-header {
+    height: 40px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.top-header-inner {
+    width: 1100px;
+    height: 100%;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    border-left: 1px solid #eaeaea;
+    border-right: 1px solid #eaeaea;
+}
+
+.data-placement-left ul {
+    padding: 0;
+    margin: 0;
+}
+
+.data-placement-left ul li {
+    list-style-type: none;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-right: 1px solid #eaeaea;
+    float: left;
+}
+
+.data-placement-right ul {
+    padding: 0;
+    margin: 0;
+}
+
+.data-placement-right ul li {
+    font-size: 12px;
+    list-style-type: none;
+    display: inline-block;
+    width: auto;
+    height: 40px;
+    border-left: 1px solid #eaeaea;
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.data-placement-right ul li span {
+    color: #676767;
+    position: relative;
+    top: 12px;
+}
+
+#container {
+    width: 1100px;
+    height: 1200px;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    padding: 20px;
+    text-align: justify;
+}
+
+#header-nav {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #ffffff;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 999;
+    transition: all 0.5s ease;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+    position: relative;
+    margin-left: 20px;
+    background: url("../../assets/img/logo.png") no-repeat left top;
+    background-size: contain;
+    display: none;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 65px;
+    right: 10px;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.navbar ul li a {
+    width: 80px;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    margin: 0;
+    color: #555;
+    letter-spacing: 1px;
+}
+
+.navbar ul li a:hover {
+    background: #1098A2;
+    cursor: pointer;
+    border-radius: 3px;
+    color: #ffffff;
+    transition: all 0.8s ease;
+}
+
+.mailico {
+    background: url("../../assets/img/mailico.png") no-repeat left top;
+    background-size: contain;
+    padding-left: 25px;
+}
+
+.telico {
+    background: url("../../assets/img/tel.png") no-repeat left top;
+    background-size: contain;
+    padding-left: 20px;
+}
+.navbar {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+    
+}
